@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2.5"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ID: "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   Código: "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtCodigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="000393"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="Referência: "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtReferencia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="434847383"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Descrição: "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtNome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSKDSKKSSSS"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quantidade: "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtQtprod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#1737ea"></View>
+
+    </LinearLayout>
+
+</LinearLayout>

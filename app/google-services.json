@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "827035175876",
+    "firebase_url": "https://datamobile-e4d1a.firebaseio.com",
+    "project_id": "datamobile-e4d1a",
+    "storage_bucket": "datamobile-e4d1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827035175876:android:1f9cdad5f8fd2210",
+        "android_client_info": {
+          "package_name": "databit.com.br.datamobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "827035175876-v4uecp0s9f17bv49sj84ftpi1ifvvpa7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "databit.com.br.datamobile",
+            "certificate_hash": "54cfd8da5bdeb2b4502e7e3823dcad60981ef042"
+          }
+        },
+        {
+          "client_id": "827035175876-f18h112pg7o22j4jpm528jh3sfvg7atr.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "827035175876-f18h112pg7o22j4jpm528jh3sfvg7atr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuqDewhinBmDzhv2hqVG0GZYQH8oIonaM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "827035175876-f18h112pg7o22j4jpm528jh3sfvg7atr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

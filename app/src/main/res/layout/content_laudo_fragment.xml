@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="databit.com.br.datamobile.fragment.LaudoFragment"
+    tools:showIn="@layout/fragment_laudo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editLaudo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:gravity="top|left"
+            android:inputType="textMultiLine"
+            android:textSize="@dimen/fonte_15" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="KM Inicial:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="@dimen/fonte_12"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtKminicial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:ems="8"
+            android:inputType="number"
+            android:textSize="@dimen/fonte_12" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="KM Final:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="@dimen/fonte_12"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtKmfinal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:ems="8"
+            android:inputType="number"
+            android:textSize="@dimen/fonte_12" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Placa:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="@dimen/fonte_12"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtPlaca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textSize="@dimen/fonte_12" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnGravarlaudo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_botao"
+            android:text="Gravar" />
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

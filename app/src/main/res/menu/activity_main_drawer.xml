@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Menu de Opções" >
+        <menu>
+            <item
+                android:id="@+id/nav_config"
+                android:icon="@mipmap/ic_settings_black_24dp"
+                android:title="Configurações" />
+            <item
+                android:id="@+id/nav_sincr"
+                android:icon="@mipmap/ic_cached_black_24dp"
+                android:title="Sincronizar Dados" />
+            <item
+                android:id="@+id/nav_sincros"
+                android:icon="@mipmap/ic_cached_black_24dp"
+                android:title="Sincronizar OS Pendente" />
+            <item
+                android:id="@+id/nav_sincpontoenv"
+                android:icon="@mipmap/ic_cached_black_24dp"
+                android:title="Sincronizar Reg. Ponto Pendente" />
+            <item
+                android:id="@+id/nav_user"
+                android:icon="@mipmap/ic_phonelink_setup_black_48dp"
+                android:title="Informações do Dispositivo" />
+            <item
+                android:id="@+id/nav_rota"
+                android:icon="@mipmap/ic_location_on_black_24dp"
+                android:title="Verificação de Rota" />
+            <item
+                android:id="@+id/nav_produto"
+                android:icon="@mipmap/ic_produto"
+                android:title="Consultar Produtos" />
+            <item
+                android:id="@+id/nav_servico"
+                android:icon="@mipmap/ic_servico"
+                android:title="Consultar Serviços" />
+            <item
+                android:id="@+id/nav_ponto"
+                android:icon="@mipmap/ic_access_alarm"
+                android:title="Registrar Ponto"/>
+            <item
+                android:id="@+id/nav_senha"
+                android:icon="@mipmap/ic_account_card_details"
+                android:title="Alterar Senha"/>
+            <item
+                android:id="@+id/nav_sair"
+                android:icon="@mipmap/ic_exit_to_app_black_24dp"
+                android:title="Sair" />
+
+        </menu>
+    </item>
+
+
+</menu>

@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_pintar">PintarActivity</string>
+    <string-array name="opcoes_filtro">
+        <item>A-Número da OS</item>
+        <item>B-Serial do Equipamento</item>
+        <item>C-PAT</item>
+        <item>D-Modelo</item>
+        <item>E-Cliente</item>
+        <item>F-CNPJ</item>
+        <item>G-Cidade</item>
+        <item>H-Bairro</item>
+        <item>I-Site</item>
+        <item>J-Departamento</item>
+        <item>K-Classificação</item>
+        <item>L-Localização</item>
+        <item>M-Contrato</item>
+    </string-array>
+
+
+</resources>

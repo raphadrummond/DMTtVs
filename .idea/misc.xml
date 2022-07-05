@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/DataMobile/app/src/main/res/layout/activity_config.xml" value="0.17255434782608695" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/activity_fecha.xml" value="0.17255434782608695" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/activity_infor.xml" value="0.17255434782608695" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/activity_listagem_os.xml" value="0.17255434782608695" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/activity_login.xml" value="0.17255434782608695" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/activity_main.xml" value="0.17255434782608695" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/activity_maps.xml" value="0.17255434782608695" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/activity_os.xml" value="0.17255434782608695" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/activity_pintar.xml" value="0.17255434782608695" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/activity_produto.xml" value="0.17255434782608695" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/activity_senha.xml" value="0.17255434782608695" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/activity_servico.xml" value="0.17255434782608695" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/activity_sincroniza.xml" value="0.17255434782608695" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/activity_splash.xml" value="0.17255434782608695" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/app_bar_main.xml" value="0.17255434782608695" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/content_arquivo_fragment.xml" value="0.17255434782608695" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/content_assinatura_fragment.xml" value="0.17255434782608695" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/content_atendimento_fragment.xml" value="0.17255434782608695" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/content_config.xml" value="0.17255434782608695" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/content_custo_fragment.xml" value="0.17255434782608695" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/content_defeito_fragment.xml" value="0.17255434782608695" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/content_entrega_fragment.xml" value="0.17255434782608695" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/content_fecha.xml" value="0.17255434782608695" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/content_historico_fragment.xml" value="0.17255434782608695" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/content_historico_tel.xml" value="0.17255434782608695" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/content_historico_ti.xml" value="0.17255434782608695" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/content_infor.xml" value="0.17255434782608695" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/content_infor_fecha_fragment.xml" value="0.25" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/content_item_fragment.xml" value="0.17255434782608695" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/content_laudo_fragment.xml" value="0.25" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/content_listagem_os.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/content_login.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/content_main.xml" value="0.17255434782608695" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/content_modulo_fragment.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/content_obs_fragment.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/content_obsentrega_fragment.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/content_obspendente_fragment.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/content_obstrocada_fragment.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/content_os.xml" value="0.17255434782608695" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/content_osdefeito_fragment.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/content_pendente_fragment.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/content_pendenteos_fragment.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/content_pintar.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/content_pintar_fragment.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/content_previsao_fragment.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/content_produto.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/content_recolha_fragment.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/content_senha.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/content_servico.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/content_sincroniza.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/content_trocada_fragment.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/content_trocadaos_fragment.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/dialog.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/fragment_arquivo.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/fragment_atendimento.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/fragment_custo.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/fragment_defeito.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/fragment_entrega.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/fragment_historico.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/fragment_historico_tel.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/fragment_historico_ti.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/fragment_infor.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/fragment_infor_fecha.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/fragment_laudo.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/fragment_log.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/fragment_modulo.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/fragment_obs.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/fragment_obs_pendente.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/fragment_obs_trocada.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/fragment_obsentrega.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/fragment_os.xml" value="0.33" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/fragment_os_defeito.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/fragment_pager_fecha.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/fragment_participante.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/fragment_pendente.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/fragment_pintar.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/fragment_previsao.xml" value="0.17255434782608695" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/fragment_recolha.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/fragment_serial.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/fragment_trocadaos.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/listagem_arquivo.xml" value="0.5" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/listagem_custo.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/listagem_historico.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/listagem_historico_tel.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/listagem_historico_ti.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/listagem_item.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/listagem_log.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/listagem_os.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/listagem_os_defeito.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/listagem_pendente.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/listagem_pendenteos.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/listagem_produto.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/listagem_recolha.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/listagem_serial.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/listagem_servico.xml" value="0.17255434782608695" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/listagem_trocada.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/listagem_trocadaos.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/menu_os.xml" value="0.17255434782608695" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/nav_header_main.xml" value="0.33" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/spinner_dropdown_padrao.xml" value="0.17255434782608695" />
+        <entry key="..\:/DataMobile/app/src/main/res/layout/spinner_padrao.xml" value="0.17255434782608695" />
+        <entry key="..\:/DataMobile/app/src/main/res/menu/activity_assina_actions.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/menu/activity_fecha_actions.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/menu/activity_main_actions.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/menu/activity_main_drawer.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/menu/activity_os_actions.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/menu/activity_req_actions.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/menu/activity_sincroniza_actions.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/menu/activity_tel_actions.xml" value="0.209375" />
+        <entry key="..\:/DataMobile/app/src/main/res/menu/main.xml" value="0.209375" />
+        <entry key="..\:/Databit/DataMobile/app/src/main/res/layout/app_bar_main.xml" value="0.15534420289855072" />
+        <entry key="..\:/Databit/DataMobile/app/src/main/res/layout/fragment_infor.xml" value="0.33" />
+        <entry key="..\:/Databit/DataMobile/app/src/main/res/menu/activity_assina_actions.xml" value="0.209375" />
+        <entry key="..\:/Databit/DataMobile/app/src/main/res/menu/activity_fecha_actions.xml" value="0.209375" />
+        <entry key="..\:/Databit/DataMobile/app/src/main/res/menu/activity_main_actions.xml" value="0.209375" />
+        <entry key="..\:/Databit/DataMobile/app/src/main/res/menu/activity_os_actions.xml" value="0.209375" />
+        <entry key="..\:/Databit/DataMobile/app/src/main/res/menu/activity_sincroniza_actions.xml" value="0.209375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

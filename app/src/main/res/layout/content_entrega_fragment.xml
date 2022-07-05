@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="databit.com.br.datamobile.fragment.EntregaFragment"
+    tools:showIn="@layout/fragment_entrega">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="horizontal">
+
+
+            <RadioButton
+                android:id="@+id/rbtotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="Entrega Total" />
+
+
+            <RadioButton
+                android:id="@+id/rbparcial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="false"
+                android:text="Entrega Parcial" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medidor TOTAL: "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtConttotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="12"
+                android:inputType="number"
+                android:textSize="@dimen/fonte_12" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medidor MONO : "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtContpb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="12"
+                android:inputType="number"
+                android:textSize="@dimen/fonte_12" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medidor COLOR: "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtContcolor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="12"
+                android:inputType="number"
+                android:textSize="@dimen/fonte_12" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recebido por....: "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtRecebido"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="19"
+                android:textSize="@dimen/fonte_12" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Conferido por...: "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtConferido"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="19"
+                android:textSize="@dimen/fonte_12" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="horizontal"
+            android:paddingBottom="15dp">
+
+            <TextView
+                android:layout_width="39dp"
+                android:layout_height="wrap_content"
+                android:text="KM Inicial: "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtKminicial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="6"
+                android:inputType="number"
+                android:textSize="@dimen/fonte_12" />
+
+            <TextView
+                android:layout_width="42dp"
+                android:layout_height="wrap_content"
+                android:text="KM Final: "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtKmfinal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="6"
+                android:inputType="number"
+                android:textSize="@dimen/fonte_12" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Placa: "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtPlaca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="6"
+                android:textSize="@dimen/fonte_12" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnGravarentrega"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_botao"
+                android:text="Gravar" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

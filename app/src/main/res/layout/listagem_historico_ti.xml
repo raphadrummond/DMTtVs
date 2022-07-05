@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2.5"
+        android:orientation="vertical"
+        android:paddingLeft="5dp">
+
+        <ImageButton
+            android:id="@+id/imageOS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:src="@mipmap/ic_osexecucao" />
+
+        <TextView
+            android:id="@+id/txtOS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="5dp"
+            android:text="004939"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="@dimen/fonte_14"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="45dp"
+        android:layout_weight="2.5"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="35dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Data Lançamento: "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtAbertura"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="01/01/2016 12:00:00"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Data Execução: "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtExecucao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="01/01/2016"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cliente: "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtNomeCliente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SIDNEY SANCHES MOREIRA"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contato: "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtContato"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SIDÃO"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Técnico: "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtTecnico"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BENITO DI PAULA"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trab.: "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtHorastrab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="01:00"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Inicio.: "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtHorascom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="09:30"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Fim.: "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtHorasfim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10:45"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Operação: "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtNomeoperacao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remoto"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Projeto: "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtProjeto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remoto"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Módulo: "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtModulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VENDAS"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Observações: "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtObs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OBSERVAÇÕES"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Defeito: "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtDefeito"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DEFEITO"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Laudo Técnico: "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtLaudo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LAUDO"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/fonte_12" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#1737ea"></View>
+
+
+    </LinearLayout>
+
+</LinearLayout>

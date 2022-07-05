@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="databit.com.br.datamobile.fragment.InforFechaFragment"
+    tools:showIn="@layout/fragment_infor_fecha"
+    android:orientation="vertical">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Med. PB.....: "
+                    android:textStyle="bold"
+                    android:textSize="@dimen/fonte_12"
+                    android:layout_weight="2"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:id="@+id/edtContpb"
+                    android:textSize="@dimen/fonte_12"
+                    android:layout_weight="1"
+                    android:ems="8"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Créd.Cópias: "
+                    android:textStyle="bold"
+                    android:textSize="@dimen/fonte_12"
+                    android:layout_weight="2"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:id="@+id/edtCredpb"
+                    android:textSize="@dimen/fonte_12"
+                    android:ems="8"
+                    android:layout_weight="1"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Med. COR...: "
+                    android:textStyle="bold"
+                    android:textSize="@dimen/fonte_12"
+                    android:layout_weight="2"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:id="@+id/edtContcor"
+                    android:textSize="@dimen/fonte_12"
+                    android:layout_weight="1"
+                    android:ems="8"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Créd.Cópias: "
+                    android:textStyle="bold"
+                    android:textSize="@dimen/fonte_12"
+                    android:layout_weight="2"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:id="@+id/edtCredcor"
+                    android:textSize="@dimen/fonte_12"
+                    android:ems="8"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Med. DIG....: "
+                    android:textStyle="bold"
+                    android:textSize="@dimen/fonte_12"
+                    android:layout_weight="2"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:id="@+id/edtContdg"
+                    android:textSize="@dimen/fonte_12"
+                    android:layout_weight="1"
+                    android:ems="8"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Créd.Cópias: "
+                    android:textStyle="bold"
+                    android:textSize="@dimen/fonte_12"
+                    android:layout_weight="2"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:id="@+id/edtCreddg"
+                    android:textSize="@dimen/fonte_12"
+                    android:ems="8"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Med. A3PB..: "
+                    android:textStyle="bold"
+                    android:textSize="@dimen/fonte_12"
+                    android:layout_weight="2"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:id="@+id/edtContgf"
+                    android:textSize="@dimen/fonte_12"
+                    android:layout_weight="1"
+                    android:ems="8"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Créd.Cópias: "
+                    android:textStyle="bold"
+                    android:textSize="@dimen/fonte_12"
+                    android:layout_weight="2"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:id="@+id/edtCredgf"
+                    android:textSize="@dimen/fonte_12"
+                    android:ems="8"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Med. A3COR: "
+                    android:textStyle="bold"
+                    android:textSize="@dimen/fonte_12"
+                    android:layout_weight="2"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:id="@+id/edtContgfc"
+                    android:textSize="@dimen/fonte_12"
+                    android:layout_weight="1"
+                    android:ems="8"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Créd.Cópias: "
+                    android:textStyle="bold"
+                    android:textSize="@dimen/fonte_12"
+                    android:layout_weight="2"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:id="@+id/edtCredgfc"
+                    android:textSize="@dimen/fonte_12"
+                    android:ems="8"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lnCilindro">
+
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Troca de Cilindro PB"
+                    android:id="@+id/chCilindropb"
+                    android:textSize="@dimen/fonte_12"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Troca de Cilindro Color"
+                    android:id="@+id/chCilindrocor"
+                    android:textSize="@dimen/fonte_12"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lnRevelador">
+
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Troca de Revelador PB"
+                    android:id="@+id/chReveladorpb"
+                    android:textSize="@dimen/fonte_12"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Troca de Revelador Color"
+                    android:id="@+id/chReveladorcor"
+                    android:textSize="@dimen/fonte_12"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lnFusor">
+
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Troca de Fusor"
+                    android:id="@+id/chFusor"
+                    android:textSize="@dimen/fonte_12"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Troca de Belt       "
+                    android:id="@+id/chBelt"
+                    android:textSize="@dimen/fonte_12"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lnReservatorio">
+
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Resevatório"
+                    android:id="@+id/chReservatorio"
+                    android:textSize="@dimen/fonte_12"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lnCilindrousado">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cilindro PB Usado"
+                    android:id="@+id/chUsadopb"
+                    android:textSize="@dimen/fonte_12"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cilindro Color Usado"
+                    android:id="@+id/chUsadocor"
+                    android:textSize="@dimen/fonte_12"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lnContcilindrousado">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Cont. PB (Usado): "
+                    android:textStyle="bold"
+                    android:textSize="@dimen/fonte_12"
+                    android:layout_weight="2"
+                    android:enabled="false"
+                    android:id="@+id/txtContpbusado"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:id="@+id/edtContpbusado"
+                    android:textSize="@dimen/fonte_12"
+                    android:layout_weight="1"
+                    android:ems="6"
+                    android:enabled="false"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Cont. Color (Usado): "
+                    android:textStyle="bold"
+                    android:textSize="@dimen/fonte_12"
+                    android:layout_weight="2"
+                    android:enabled="false"
+                    android:id="@+id/txtContcolorusado"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:id="@+id/edtContcolorusado"
+                    android:textSize="@dimen/fonte_12"
+                    android:ems="6"
+                    android:layout_weight="1"
+                    android:enabled="false"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lnCondicao">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Condição Final: "
+                    android:textStyle="bold"
+                    android:textSize="@dimen/fonte_12"
+                    android:layout_weight="1"
+                    android:id="@+id/txtCondicao"/>
+
+                <Spinner
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lcbCondicao"
+                    android:layout_weight="1"
+                    android:spinnerMode="dropdown" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lnServicoinc">
+
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Serviço Incompleto:"
+                    android:id="@+id/chServincompleto"
+                    android:textSize="@dimen/fonte_12"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+
+                <Spinner
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lcbServincompleto"
+                    android:layout_weight="1"
+                    android:spinnerMode="dropdown"
+                    android:visibility="gone"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lnKm">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="KM Inicial: "
+                    android:textStyle="bold"
+                    android:textSize="@dimen/fonte_12"
+                    android:layout_weight="2"
+                    android:id="@+id/txtKminicial"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:id="@+id/edtKminicial"
+                    android:textSize="@dimen/fonte_12"
+                    android:layout_weight="1"
+                    android:ems="6"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="KM Final: "
+                    android:textStyle="bold"
+                    android:textSize="@dimen/fonte_12"
+                    android:layout_weight="2"
+                    android:id="@+id/txtKmfinal"/>
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:id="@+id/edtKmfinal"
+                    android:textSize="@dimen/fonte_12"
+                    android:ems="6"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Placa: "
+                    android:textStyle="bold"
+                    android:textSize="@dimen/fonte_12"
+                    android:layout_weight="2"
+                    android:id="@+id/txtKmplaca"/>
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edtPlaca"
+                    android:textSize="@dimen/fonte_12"
+                    android:ems="6"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="20dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Gravar"
+                    android:id="@+id/btnGravarfecha"
+                    android:background="@drawable/bg_botao"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

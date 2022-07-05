@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="databit.com.br.datamobile">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name = "android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name=".application.DataMobileApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/databit"
+        android:label="DataService Mobile"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDv6BGn_SzlEO0TGJLAyLfvw8VKa6Kaoso" />
+
+        <activity
+            android:name=".activity.SplashActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="DataService Mobile"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.LoginActivity"
+            android:configChanges="orientation|screenSize"
+            android:icon="@mipmap/ic_dataservicenovo"
+            android:label="DataService Mobile - 6.06"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:icon="@mipmap/ic_dataservicenovo"
+            android:label="Ordens de Serviço"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.ConfigActivity"
+            android:configChanges="orientation|screenSize"
+            android:icon="@mipmap/ic_dataservicenovo"
+            android:label="Configurações Gerais"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.OsActivity"
+            android:configChanges="orientation|screenSize"
+            android:icon="@mipmap/ic_dataservicenovo"
+            android:label="Ordem Serviço"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <service
+            android:name=".service.SincronizacaoDatabit"
+            android:enabled="true"
+            android:exported="false"
+            android:process="databit.com.br.datamobile.SincronizacaoDatabit" />
+        <service
+            android:name=".service.SincronizacaoPendencia"
+            android:enabled="true"
+            android:exported="false"
+            android:process="databit.com.br.datamobile.SincronizacaoPendencia" />
+        <service
+            android:name=".service.SincronizacaoLocalidade"
+            android:enabled="true"
+            android:exported="false"
+            android:process="databit.com.br.datamobile.SincronizacaoLocalidade" />
+        <service
+            android:name=".service.PontoService"
+            android:enabled="true"
+            android:exported="false"
+            android:process="databit.com.br.datamobile.PontoService" />
+        <service
+            android:name=".service.UsuarioIntentService"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".gcm.GcmIntentService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".gcm.GcmInstanceIDListenerService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".gcm.RegistrationIntentService"
+            android:exported="false" />
+
+        <activity
+            android:name=".activity.SincronizaActivity"
+            android:configChanges="orientation|screenSize"
+            android:icon="@mipmap/ic_dataservicenovo"
+            android:label="Sincronização de Dados"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.InforActivity"
+            android:configChanges="orientation|screenSize"
+            android:icon="@mipmap/ic_dataservicenovo"
+            android:label="Infor. Dispositivo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.FechaActivity"
+            android:configChanges="orientation|screenSize"
+            android:icon="@mipmap/ic_dataservicenovo"
+            android:label="Fechamento de OS"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.PintarActivity"
+            android:configChanges="orientation|screenSize"
+            android:icon="@mipmap/ic_dataservicenovo"
+            android:label="Assinatura da OS"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.ProdutoActivity"
+            android:configChanges="orientation|screenSize"
+            android:icon="@mipmap/ic_dataservicenovo"
+            android:label="Pesquisa de Produtos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.ServicoActivity"
+            android:configChanges="orientation|screenSize"
+            android:icon="@mipmap/ic_dataservicenovo"
+            android:label="Pesquisa de Serviços"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.SenhaActivity"
+            android:configChanges="orientation|screenSize"
+            android:icon="@mipmap/ic_dataservicenovo"
+            android:label="Alterar Senha"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+    </application>
+
+</manifest>

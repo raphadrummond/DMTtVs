@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="8dp"
+    android:paddingTop="8dp"
+    android:paddingRight="8dp"
+    android:paddingBottom="8dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:alpha="0.25"
+        android:src="@drawable/logomarcadataservice" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:orientation="vertical">
+
+
+                <CheckBox
+                    android:id="@+id/checkPendente"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Pendente"
+                    android:textSize="@dimen/fonte_14"/>
+
+                <CheckBox
+                    android:id="@+id/checkAtraso"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Em Atraso"
+                    android:textSize="@dimen/fonte_14" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/checkExecucao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Em Execução"
+                    android:textSize="@dimen/fonte_14" />
+
+
+                <CheckBox
+                    android:id="@+id/checkConcluido"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Concluído"
+                    android:textSize="@dimen/fonte_14" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnFiltro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/checkFiltro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aplicar Filtro"
+                android:textSize="@dimen/fonte_14" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnFiltro2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/txtFiltro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Filtrar por..: "
+                android:textSize="@dimen/fonte_14"
+                android:visibility="gone"/>
+
+            <Spinner
+                android:id="@+id/lcbFiltro"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:spinnerMode="dropdown"
+                android:textSize="@dimen/fonte_13"
+                android:visibility="gone"
+                android:entries="@array/opcoes_filtro"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnFiltro3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/txtTermo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Termo........:"
+                android:textSize="@dimen/fonte_14"
+                android:visibility="gone"/>
+
+            <EditText
+                android:id="@+id/edtTermo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:enabled="true"
+                android:textSize="@dimen/fonte_13"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/radioOrdem"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbCrescente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="Ordem crescente    "
+                android:textSize="@dimen/fonte_14" />
+
+            <RadioButton
+                android:id="@+id/rbDecrescente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="false"
+                android:text="Ordem decrescente"
+                android:textSize="@dimen/fonte_14" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#1737ea">
+        </View>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/os_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical" />
+
+    </LinearLayout>
+
+</FrameLayout>

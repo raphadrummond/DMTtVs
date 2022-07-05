@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="databit.com.br.datamobile.fragment.PrevisaoFragment"
+    tools:showIn="@layout/fragment_previsao">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+
+        <CalendarView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/calendarView"
+            android:showWeekNumber="false"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Previsão do Próximo Atendimento :"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="@dimen/fonte_14"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editPrevisao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:ems="10"
+            android:inputType="date"
+            android:textSize="@dimen/fonte_14"
+            android:textAlignment="center"
+            android:editable="false"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Atendimento Finalizado (Sem outra visita)"
+            android:id="@+id/checkConcluido"
+            android:textSize="@dimen/fonte_14"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4.5"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnGravarprevisao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_botao"
+            android:text="Gravar" />
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
