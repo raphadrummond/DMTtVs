@@ -1,30 +1,17 @@
 package databit.com.br.datamobile.fragment;
 
-import android.app.Activity;
-import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.net.Uri;
 import android.os.Bundle;
-import android.provider.MediaStore;
-import android.support.v4.app.Fragment;
-import android.util.Base64;
+
+import androidx.fragment.app.Fragment;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.Toast;
-
-import com.google.android.gms.ads.internal.overlay.zzo;
-
-import java.io.ByteArrayOutputStream;
-import java.io.UnsupportedEncodingException;
 
 import databit.com.br.datamobile.R;
-import databit.com.br.datamobile.dao.FechamentoDAO;
-import databit.com.br.datamobile.dao.OsDAO;
-import databit.com.br.datamobile.domain.Fechamento;
 import databit.com.br.datamobile.interfaces.SelecionaOs;
 
 public class AssinaturaFragment extends Fragment {

@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DataMobile.iml" filepath="$PROJECT_DIR$/DataMobile.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/DataMobile.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/DataMobile.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/DataMobile.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/DataMobile.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/DataMobile.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/DataMobile.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/DataMobile.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/DataMobile.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DMTtVs.iml" filepath="$PROJECT_DIR$/.idea/modules/DMTtVs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/DMTtVs.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/DMTtVs.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/DMTtVs.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/DMTtVs.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/DMTtVs.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/DMTtVs.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/DMTtVs.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/DMTtVs.app.unitTest.iml" />
     </modules>
   </component>
 </project>

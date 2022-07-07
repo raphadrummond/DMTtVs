@@ -1,9 +1,9 @@
 package databit.com.br.datamobile.pages;
 
 import android.os.Bundle;
-import android.support.design.widget.TabLayout;
-import android.support.v4.app.Fragment;
-import android.support.v4.view.ViewPager;
+import com.google.android.material.tabs.TabLayout;
+import androidx.fragment.app.Fragment;
+import androidx.viewpager.widget.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,8 +11,6 @@ import android.view.ViewGroup;
 import com.google.android.gms.maps.SupportMapFragment;
 
 import databit.com.br.datamobile.R;
-import databit.com.br.datamobile.dao.ConfiguracaoDAO;
-import databit.com.br.datamobile.domain.Configuracao;
 import databit.com.br.datamobile.domain.Os;
 import databit.com.br.datamobile.fragment.HistoricoFragment;
 import databit.com.br.datamobile.fragment.HistoricoTELFragment;
@@ -22,10 +20,8 @@ import databit.com.br.datamobile.fragment.ItemFragment;
 import databit.com.br.datamobile.fragment.LogFragment;
 import databit.com.br.datamobile.fragment.OsDefeitoFragment;
 import databit.com.br.datamobile.fragment.PendenteFragment;
-import databit.com.br.datamobile.fragment.PendenteOSFragment;
 import databit.com.br.datamobile.fragment.SerialFragment;
 import databit.com.br.datamobile.fragment.TrocadaFragment;
-import databit.com.br.datamobile.interfaces.SelecionaOs;
 
 /**
  * Created by developer on 23/04/16.
