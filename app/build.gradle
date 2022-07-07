@@ -28,6 +28,7 @@ android {
 }
 
 dependencies {
+    implementation 'com.google.gms:google-services:4.3.13'
     /*
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     //noinspection GradleCompatible
