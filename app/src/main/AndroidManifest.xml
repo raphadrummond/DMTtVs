@@ -136,7 +136,7 @@
         <activity
             android:name=".activity.CaptureActivity"
             android:configChanges="orientation|screenSize"
-            android:icon="@mipmap/ic_dataservicenovo"
+            android:icon="@drawable/ic_qr_code_scanner"
             android:label="Test1"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
