@@ -134,10 +134,10 @@
             android:label="Fechamento de OS"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activity.PintarActivity"
+            android:name=".activity.CaptureActivity"
             android:configChanges="orientation|screenSize"
             android:icon="@mipmap/ic_dataservicenovo"
-            android:label="Assinatura da OS"
+            android:label="Test1"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".activity.ProdutoActivity"
@@ -150,6 +150,12 @@
             android:configChanges="orientation|screenSize"
             android:icon="@mipmap/ic_dataservicenovo"
             android:label="Pesquisa de Serviços"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.SenhaActivity"
+            android:configChanges="orientation|screenSize"
+            android:icon="@mipmap/ic_dataservicenovo"
+            android:label="Alterar Senha"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".activity.SenhaActivity"

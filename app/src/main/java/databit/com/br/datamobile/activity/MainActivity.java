@@ -16,6 +16,8 @@ import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.provider.Settings;
+
+import androidx.activity.result.ActivityResultLauncher;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import com.google.android.material.navigation.NavigationView;
@@ -49,6 +51,8 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.LocationListener;
 import com.google.android.gms.location.LocationServices;
+import com.journeyapps.barcodescanner.ScanContract;
+import com.journeyapps.barcodescanner.ScanOptions;
 
 import java.io.IOException;
 import java.text.DateFormat;
@@ -412,6 +416,10 @@ public class MainActivity extends AppCompatActivity
                 filtrar();
                 break;
             }
+            case R.id.op_qrcode: {
+                scanCode();
+                break;
+            }
         }
         return super.onOptionsItemSelected(item);
     }
@@ -426,7 +434,29 @@ public class MainActivity extends AppCompatActivity
         SincOsAsyncTask task = new SincOsAsyncTask();
         task.execute();
     }
+    private void scanCode() {
+        ScanOptions options = new ScanOptions();
+        options.setPrompt("Aponte a câmera para o QR Code");
+        options.setBeepEnabled(true);
+        options.setOrientationLocked(true);
+        options.setCaptureActivity(CaptureActivity.class);
+        barLauncher.launch(options);
 
+    }
+
+    ActivityResultLauncher<ScanOptions> barLauncher = registerForActivityResult(new ScanContract(), result ->{
+        if(result.getContents() !=null) {
+            android.app.AlertDialog.Builder builder = new android.app.AlertDialog.Builder(MainActivity.this);
+            builder.setTitle("Resultado");
+            builder.setMessage(result.getContents());
+            builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    dialogInterface.dismiss();
+                }
+            }).show();
+        }
+    });
 
     protected synchronized void buildGoogleApiClient() {
         mGoogleApiClient = new GoogleApiClient.Builder(this)

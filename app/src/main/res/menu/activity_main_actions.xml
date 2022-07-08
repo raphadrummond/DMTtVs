@@ -20,4 +20,10 @@
         android:icon="@mipmap/ic_filtrar2"
         app:showAsAction="ifRoom"
         />
+    <item
+        android:id="@+id/op_qrcode"
+        android:icon="@mipmap/ic_filtrar2"
+        android:orderInCategory="1"
+        android:title="QR Code"
+        app:showAsAction="ifRoom" />
 </menu>
