@@ -447,7 +447,7 @@ public class MainActivity extends AppCompatActivity
     ActivityResultLauncher<ScanOptions> barLauncher = registerForActivityResult(new ScanContract(), result ->{
         if(result.getContents() !=null) {
             android.app.AlertDialog.Builder builder = new android.app.AlertDialog.Builder(MainActivity.this);
-            builder.setTitle("Resultado");
+            builder.setTitle("Dados do QR Code");
             builder.setMessage(result.getContents());
             builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                 @Override
